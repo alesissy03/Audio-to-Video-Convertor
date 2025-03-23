@@ -10,3 +10,4 @@ I found out about Ffmpeg and so I installed it and put together a python script 
 Hope you will find it useful!
 
 example of running the script: python3 convertor.py
+disclaimer: you need to install Ffmpeg prior to using this script
