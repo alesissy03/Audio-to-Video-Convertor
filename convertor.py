@@ -1,12 +1,12 @@
 import os
 import subprocess
 
-# Set the input folder where your .wav files are located
-input_folder_path = "/mnt/d/Departamentul de muzica AZSMR Muntenia/Partituri orchestra/Audio"
-# Set the output folder where you want to save the .mp4 files
-output_folder_path = "/mnt/d/Departamentul de muzica AZSMR Muntenia/Partituri orchestra/Video"
-# Set the path to the image you want to use as the background
-background_image_path = "/mnt/d/Departamentul de muzica AZSMR Muntenia/Partituri orchestra/Audio/black.jpg"
+# Set the input folder where your .wav files are located, /mnt/... for Linux or wsl
+input_folder_path = "audio_folder"
+# Set the output folder where you want to save the .mp4 files, /mnt/... for Linux or wsl
+output_folder_path = "video_folder"
+# Set the path to the image you want to use as the background, /mnt/... for Linux or wsl
+background_image_path = "background_folder"
 
 # Make sure the output directory exists, or create it
 if not os.path.exists(output_folder_path):
